@@ -1,0 +1,112 @@
+.container{
+  
+  color: black;
+ 
+  
+  
+
+}
+
+.menu-item{
+  border-top: 1px solid gray;
+  font-size: 18px;
+  padding-top: 13px;
+  
+  
+  
+  
+}
+
+.menu-title{
+  font-size: 90px;
+  font-weight: 400;
+}
+
+.menu-section{
+  padding-top: 45px;
+  
+}
+
+.price{
+  font-size: 20px;
+  
+  
+}
+
+.dish-description{
+  width: 100%;
+  font-size: 17px;
+  
+}
+
+.menu-wrapper {
+  max-width: 100%; /* Full-width layout */
+  margin: 0 auto; /* Center the content */
+  padding-right: 15px; /* Add some padding for spacing */
+}
+
+.menu-img {
+
+  height: auto;
+  margin-left: -115px;
+  object-fit: cover;
+    object-position: 50% 50%;
+    width: 100%;
+}
+
+.menu-content {
+  padding: 20px;
+  padding-top: 150px;
+  
+}
+
+.menu-title {
+  font-size: 6rem;
+  margin-bottom: 50px;
+}
+
+.section-description {
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+.menu-item {
+  padding: 10px 0;
+  
+}
+
+
+
+.price {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  .menu-img{
+    display: none;
+  }
+
+  .menu-content {
+    padding-top: 150px;
+    
+    
+    
+  }
+
+  .menu-title {
+    font-size: 3rem;
+  }
+}
+
+
+@media (min-width: 800px){
+  .menu-content{
+    max-height: 760px;
+  overflow: scroll;
+  overflow-x: hidden;
+  scrollbar-width: none;
+  }
+}
+
+

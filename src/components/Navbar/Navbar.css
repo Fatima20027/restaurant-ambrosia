@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Lexend:wght@100..900&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Roboto+Slab:wght@100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Lexend:wght@100..900&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css');
+
+
+
+
+.navbar{
+  font-family:  "Mukta Malar", serif;
+  background-color: #F8F6F3 !important;
+  
+}
+
+.navbar-brand {
+  font-size: 95px ;
+  font-weight: 400;
+  padding-left: 40px;
+  font-family: "Roboto", serif;
+  text-align: start;
+ 
+  
+}
+
+.nav-link:hover {
+  color: #6a6a3a;
+}
+
+.nav-link {
+  color: black;
+  text-decoration: none;
+  transition: color 0.3s ease; 
+}
+
+.nav-link.active {
+  color: #6a6a3a !important; 
+  
+}
+
+
+
+
+
+
+
+@media (max-width: 768px) { /* Small screens (phones) */
+  .offcanvas {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+  }
+
+  .navbar-brand{
+    font-size: 50px;
+    padding-left: 20px;
+    
+  }
+
+  .navbar-brand > span {
+    font-family: "italic";
+  }
+
+  .icon-brand-nav{
+    width: 90px;
+  height: 90px;
+  margin-bottom: 5%;
+  }
+}
+
+
+
+@media (min-width: 800px){
+  .nav-link {
+    padding: 0; /* Remove padding from links */
+    text-align: end; 
+    font-size: 18px;
+    line-height: 20px;
+  }
+
+  .navbar-nav{
+    
+    position: relative;
+    top: 30px;
+    right: 50px;
+  }
+
+  .navbar-brand{
+    font-size: 90px;
+    margin: -8px 0;
+   
+
+  }
+
+  .icon-brand-nav{
+    display: none;
+  }
+
+  
+
+  
+
+}
+

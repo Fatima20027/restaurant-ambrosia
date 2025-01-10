@@ -1,0 +1,23 @@
+/* App.css */
+
+body, html {
+  height: 100%; 
+  margin: 0;
+  font-family:  "Mukta Malar", serif;
+  background-color: #F8F6F3;
+  scroll-behavior: smooth;
+  
+}
+
+#root {
+  height: 100%; /* The React app container also needs to stretch */
+  display: grid;
+  grid-template-rows: auto 1fr auto; /* Header (auto), Content (flexible), Footer (auto) */
+}
+
+.App {
+  display: grid;
+  grid-template-rows: auto 1fr auto; /* Repeat for safety */
+}
+
+
