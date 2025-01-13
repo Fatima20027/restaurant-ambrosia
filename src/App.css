@@ -10,14 +10,14 @@ body, html {
 }
 
 #root {
-  height: 100%; /* The React app container also needs to stretch */
+  height: 100%;
   display: grid;
-  grid-template-rows: auto 1fr auto; /* Header (auto), Content (flexible), Footer (auto) */
+  grid-template-rows: auto 1fr auto;
 }
 
 .App {
   display: grid;
-  grid-template-rows: auto 1fr auto; /* Repeat for safety */
+  grid-template-rows: auto 1fr auto;
 }
 
 .fade-enter {
