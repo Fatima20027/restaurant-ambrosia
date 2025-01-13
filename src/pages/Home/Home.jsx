@@ -66,7 +66,7 @@ const Home = () => {
             <p>
             At our restaurant, we believe that a meal is more than just food on a plate—it's an experience. From the moment you walk through our doors, you're welcomed into an atmosphere of warmth, care, and passion for exceptional dining. Every dish we serve is a reflection of our dedication to quality, creativity, and unforgettable moments shared over a table.
             </p>
-            <Link to="/menu" className="fs-3 text-black btn-menu">
+            <Link to="/about" className="fs-3 text-black btn-menu">
               ABOUT US
             </Link>
           </div>
