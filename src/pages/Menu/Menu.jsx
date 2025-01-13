@@ -12,7 +12,7 @@ const Menu = () => {
         <div className=" col-md-6 menu-content ">
           {/* Menu Section */}
           <div className="menu-section mb-4">
-            <h2 className='menu-title'>MENU</h2>
+            <h2 className='menu-title'><span style={{ fontFamily: "italic", fontWeight: "400"}}>M</span>ENU</h2>
             <div>
             <h2>FOOD</h2>
             <p className="section-description">

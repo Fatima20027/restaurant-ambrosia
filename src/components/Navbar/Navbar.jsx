@@ -10,7 +10,7 @@ function Navbar() {
     <nav className="navbar navbar-expand-lg bg-white w-100%  fixed-top">
       <div className="container-fluid">
         <Link className="navbar-brand d-flex" to="/">
-        AMB<span style={{ fontFamily: "Quicksand, serif", fontWeight: "400"}}>R</span>OSIA
+        A<span style={{ fontFamily: "italic", fontWeight: "400"}}>M</span>BROSIA
         </Link>
         <button
           className="navbar-toggler border-0 shadow-none"
@@ -31,7 +31,7 @@ function Navbar() {
           <div className="offcanvas-header justify-content-end">
             <button
               type="button"
-              className="btn-close shadow-none"
+              className="btn-close shadow-none mt-4 fs-5"
               data-bs-dismiss="offcanvas"
               aria-label="Close"
             ></button>
