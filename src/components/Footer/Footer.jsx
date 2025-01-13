@@ -1,5 +1,5 @@
 import React from "react";
-import "./Footer.css";
+import "./Footer.css"; // Assuming custom styles
 import { Link } from "react-router-dom";
 
 function Footer() {
@@ -26,7 +26,7 @@ function Footer() {
               </svg>
               <p className="sub-brand mb-0">BRASSERIE & BAR</p>
               <p className="nav-brand mb-0">
-              AMB<span style={{ fontFamily: "Quicksand, serif", fontWeight: "400"}}>R</span>OSIA
+              A<span style={{ fontFamily: "italic", fontWeight: "400"}}>M</span>BROSIA
               </p>
             </div>
 
@@ -40,21 +40,25 @@ function Footer() {
                 <li>
                   <Link to="/" className="text-decoration-none">
                     Youtube
+                    <i class='bx bxl-youtube'></i>
                   </Link>
                 </li>
                 <li>
                   <Link to="/" className="text-decoration-none">
                     Instagram
+                    <i class='bx bxl-instagram' ></i>
                   </Link>
                 </li>
                 <li>
                   <Link to="/" className="text-decoration-none">
                     Facebook
+                    <i class='bx bxl-facebook-circle'></i>
                   </Link>
                 </li>
                 <li>
                   <Link to="/" className="text-decoration-none">
                     Linkedin
+                    <i class='bx bxl-linkedin-square'></i>
                   </Link>
                 </li>
                 
@@ -69,7 +73,7 @@ function Footer() {
         >
           © {new Date().getFullYear()} by Fatima Hailou
         </div>
-        
+
       </footer>
     </section>
   );

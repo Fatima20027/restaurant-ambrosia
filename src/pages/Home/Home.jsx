@@ -3,7 +3,7 @@ import './Home.css';
 import { Link } from 'react-router-dom';
 import home2 from '../../assets/2-home.png';
 import home3 from '../../assets/3-home.png';
-import { Background, Parallax } from 'react-parallax';
+import { Parallax } from 'react-parallax';
 import bgImage from '../../assets/0-home.png';
 import home4 from '../../assets/home4.webp';
 import home5 from '../../assets/home5.webp';
@@ -79,41 +79,43 @@ const Home = () => {
 
       </div>
 
+      {/*Gallery*/}
+
       <div className="gallery horizontal-scrollable w-100">
         <div>
-          <img src={home13} alt="Image 1" className="img-fluid h-100 w-100" />
+          <img src={home13} alt="img 1" className="img-fluid h-100 w-100" />
         </div>
         <div className="row ">
           <div className="col-12">
-            <img src={home4} alt="Image 2" className="img-fluid w-100" />
+            <img src={home4} alt="img 2" className="img-fluid w-100" />
           </div>
           <div className="col-6 mt-3">
-            <img src={home5} alt="Image 3" className="img-fluid w-100" />
+            <img src={home5} alt="img 3" className="img-fluid w-100" />
           </div>
           <div className="col-6 mt-3">
-            <img src={home6} alt="Image 4" className="img-fluid w-100" />
+            <img src={home6} alt="img 4" className="img-fluid w-100" />
           </div>
         </div>
         <div className="row">
           <div className="col-6 mb-3">
-            <img src={home7} alt="Image 5" className="img-fluid w-100" />
+            <img src={home7} alt="img 5" className="img-fluid w-100" />
           </div>
           <div className="col-6 mb-3">
-            <img src={home8} alt="Image 6" className="img-fluid w-100" />
+            <img src={home8} alt="img 6" className="img-fluid w-100" />
           </div>
           <div className="col-12">
-            <img src={home9} alt="Image 7" className="img-fluid w-100" />
+            <img src={home9} alt="img 7" className="img-fluid w-100" />
           </div>
         </div>
         <div className="row ">
           <div className="col-12">
-            <img src={home10} alt="Image 8" className="img-fluid w-100" />
+            <img src={home10} alt="img 8" className="img-fluid w-100" />
           </div>
           <div className="col-6 mt-3">
-            <img src={home11} alt="Image 9" className="img-fluid w-100" />
+            <img src={home11} alt="img 9" className="img-fluid w-100" />
           </div>
           <div className="col-6 mt-3 ">
-            <img src={home12} alt="Image 10" className="img-fluid w-100" />
+            <img src={home12} alt="img 10" className="img-fluid w-100" />
           </div>
         </div>
       </div>
