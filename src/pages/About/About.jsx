@@ -144,7 +144,7 @@ const About = () => {
       <div className="error-text">Message can't be blank.</div>
     </div>
     <div className='contact-btn'>
-      <button type="submit">Submit</button>
+      <button type="submit">SUBMIT</button>
 
     </div>
     
