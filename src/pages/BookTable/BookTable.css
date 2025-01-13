@@ -1,11 +1,10 @@
-/* General Styles */
 .booking-content {
   padding-top: 200px;
   height: 100vh;
   color: #000 !important;
 }
 
-/* Heading Styling */
+
 .booking-content  h2{
   font-size: 15px;
   font-weight: 400;
@@ -19,7 +18,6 @@
   font-size: 100px;
 }
 
-/* Responsive Form Control */
 .form-control {
   border: none;
   background-color: transparent !important;
@@ -50,7 +48,7 @@ button[type="submit"]:hover {
 
 }
 
-/* Responsive Icons */
+
 .bx-chevron-down, .bx-calendar-alt {
   position: absolute;
   right: 15px;
@@ -63,7 +61,6 @@ button[type="submit"]:hover {
   color: #727263;
 }
 
-/* Responsive Calendar */
 .custom-calendar {
   background-color: #F8F6F3;
   border: 1px solid #000 !important;
@@ -76,7 +73,7 @@ button[type="submit"]:hover {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
 }
 
-/* Responsive Layout for Small Screens */
+
 @media (max-width: 768px) {
   .booking-content {
     padding-top: 70px;
@@ -109,7 +106,7 @@ button[type="submit"]:hover {
   }
 }
 
-/* Extra Small Screens */
+
 @media (max-width: 576px) {
   .booking-content h2 {
     font-size: 30px;
@@ -127,7 +124,7 @@ button[type="submit"]:hover {
 
 
 .custom-calendar {
-  background-color: #F8F6F3; /* Example custom background color */
+  background-color: #F8F6F3;
   border: 1px solid #000 !important;
   
   padding: 20px 30px!important;
@@ -136,44 +133,40 @@ button[type="submit"]:hover {
   
 }
 
-/* General Day Cell */
+
 .react-datepicker__day {
-  width: 40px; /* Fixed width */
-  height: 40px; /* Fixed height */
-  line-height: 40px; /* Center the text vertically */
-  border-radius: 50%; /* Circle shape */
+  width: 40px; 
+  height: 40px; 
+  line-height: 40px;
+  border-radius: 50%;
   display: inline-flex;
   align-items: center;
-  justify-content: center; /* Center the text horizontally */
-  margin: 2px auto; /* Space around cells */
+  justify-content: center;
+  margin: 2px auto;
   transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
 /* Selected Day */
 .react-datepicker__day--selected {
-  background-color: #6a6a3a !important; /* Darker background for selected day */
-  color: white !important; /* Text color */
-  border-radius: 50% !important; /* Ensure the circle remains intact */
-  width: 40px !important; /* Set fixed width for the circle */
-  height: 40px !important; /* Set fixed height for the circle */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional shadow for emphasis */
-  padding: 9px 0 10px 0 !important; /* Optional to ensure the content fits within the circle */
+  background-color: #6a6a3a !important; 
+  color: white !important; 
+  border-radius: 50% !important;
+  width: 40px !important; 
+  height: 40px !important; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+  padding: 9px 0 10px 0 !important; 
   transition: background-color 0.3s ease, transform 0.3s ease;
 
   
-  
-  
 }
 
-/* Hover Effect on Day Cells */
-.react-datepicker__day:hover {
-  background-color: #cacaba7c !important; /* Slightly darker background on hover */
-   /* White text on hover */
 
-  border-radius: 50% !important; /* Ensure the circle remains intact */
-  width: 40px !important; /* Set fixed width for the circle */
-  height: 40px !important; /* Set fixed height for the circle */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional shadow for emphasis */
+.react-datepicker__day:hover {
+  background-color: #cacaba7c !important; 
+  border-radius: 50% !important; 
+  width: 40px !important; 
+  height: 40px !important; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
   padding: 8px 0 10px 0 !important;
 }
 
@@ -187,11 +180,10 @@ button[type="submit"]:hover {
   
 }
 
-/* Header Styling */
+
 .react-datepicker__header {
   background-color: transparent!important;
   color: white;
-  
   padding: 10px;
   border-radius: 8px 8px 0 0; 
   border-bottom: none;
@@ -201,7 +193,7 @@ button[type="submit"]:hover {
 
 
 .react-datepicker-wrapper {
-  width: 100%; /* Ensure DatePicker input takes full width */
+  width: 100%;
 }
 
 .react-datepicker__input-container input {
