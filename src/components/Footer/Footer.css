@@ -1,21 +1,15 @@
 @import url('https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css');
 
 
-
 .footer {
   background-color: #bab9b6;
   color: black;
   font-family: "Mukta Malar", serif;
   font-weight: 400;
   width: 100%;
-  position: relative; /* Ensure the footer does not overlap */
+  position: relative;
   bottom: 0;
-  padding-bottom: 50px;
-  
-
-  
-  
-  
+  padding-bottom: 50px;  
 }
 
 .nav-brand{
@@ -58,12 +52,6 @@
 .list-unstyled a:hover{
   color: #414136 !important;
 }
-
-
-/* Ensure the row uses Flexbox for alignment */
-
-
-
 
 
 

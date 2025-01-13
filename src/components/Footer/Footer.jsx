@@ -1,5 +1,5 @@
 import React from "react";
-import "./Footer.css"; // Assuming custom styles
+import "./Footer.css";
 import { Link } from "react-router-dom";
 
 function Footer() {
@@ -69,7 +69,7 @@ function Footer() {
         >
           © {new Date().getFullYear()} by Fatima Hailou
         </div>
-        {/* Copyright */}
+        
       </footer>
     </section>
   );
