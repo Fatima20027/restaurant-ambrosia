@@ -40,25 +40,25 @@ function Footer() {
                 <li>
                   <Link to="https://www.youtube.com/@fatimahailou3420" className="text-decoration-none" target="_blank">
                     Youtube
-                    <i className='bx bxl-youtube'></i>
+                    <i className='bx bxl-youtube ms-3'></i>
                   </Link>
                 </li>
                 <li>
                   <Link to="https://www.instagram.com/fatima027___/" className="text-decoration-none" target="_blank">
                     Instagram
-                    <i className='bx bxl-instagram' ></i>
+                    <i className='bx bxl-instagram ms-3' ></i>
                   </Link>
                 </li>
                 <li>
                   <Link to="/" className="text-decoration-none">
                     Facebook
-                    <i className='bx bxl-facebook-circle'></i>
+                    <i className='bx bxl-facebook-circle ms-3'></i>
                   </Link>
                 </li>
                 <li>
                   <Link to="https://www.linkedin.com/in/fatima-hailou-985779277/" className="text-decoration-none" target="_blank">
                     Linkedin
-                    <i className='bx bxl-linkedin-square'></i>
+                    <i className='bx bxl-linkedin-square ms-3'></i>
                   </Link>
                 </li>
                 
