@@ -86,20 +86,20 @@ npm run build
 ## Mobile Compatibility
 
 The website is fully responsive and has been tested on a variety of devices and screen sizes to ensure optimal usability. It adapts seamlessly to:
-- Desktop screens
-- Tablets
-- Smartphones
+- 🖥️Desktop screens
+- 📔Tablets
+- 📱Smartphones
 
 ---
 
 
 ## Team
 
-[Fatima Hailou](https://github.com/Fatima20027)
+[Fatima Hailou](https://github.com/Fatima20027) 💁‍♀️💕
 
 ---
 
-Feel free to explore and contribute to the Ambrosia Restaurant Website. Thank you for visiting!
+Feel free to explore and contribute to the Ambrosia Restaurant Website. Thank you for visiting! 💗
 
 ## NOTE
 Please note that Due to issues with the previous repository files [Restaurant](https://github.com/Fatima20027/Restaurant/tree/main/dashboard1), I had to create a new repository. As a result, this repository has fewer commits.
