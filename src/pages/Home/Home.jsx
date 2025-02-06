@@ -15,6 +15,7 @@ import home10 from '../../assets/home10.webp';
 import home11 from '../../assets/home11.webp';
 import home12 from '../../assets/home12.webp';
 import home13 from '../../assets/home13.webp';
+import video from '../../assets/video.mp4';
 
 
 const Home = () => {
@@ -83,7 +84,7 @@ const Home = () => {
 
       <div className="gallery horizontal-scrollable w-100">
         <div>
-          <img src={home13} alt="img 1" className="img-fluid h-100 w-100" />
+          <video autoPlay loop muted src={video} alt="img 1" className="img-fluid h-100 w-100" ></video>
         </div>
         <div className="row ">
           <div className="col-12">
