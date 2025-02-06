@@ -14,7 +14,6 @@ import home9 from '../../assets/home9.webp';
 import home10 from '../../assets/home10.webp';
 import home11 from '../../assets/home11.webp';
 import home12 from '../../assets/home12.webp';
-import home13 from '../../assets/home13.webp';
 import video from '../../assets/video.mp4';
 
 
