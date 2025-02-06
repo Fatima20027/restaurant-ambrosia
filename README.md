@@ -101,5 +101,5 @@ The website is fully responsive and has been tested on a variety of devices and 
 
 Feel free to explore and contribute to the Ambrosia Restaurant Website. Thank you for visiting! 💗
 
-## NOTE
+## NOTE⚠️
 Please note that Due to issues with the previous repository files [Restaurant](https://github.com/Fatima20027/Restaurant/tree/main/dashboard1), I had to create a new repository. As a result, this repository has fewer commits.
