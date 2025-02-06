@@ -1,5 +1,5 @@
 import React from "react";
-import "./Footer.css"; // Assuming custom styles
+import "./Footer.css";
 import { Link } from "react-router-dom";
 
 function Footer() {
@@ -40,25 +40,25 @@ function Footer() {
                 <li>
                   <Link to="https://www.youtube.com/@fatimahailou3420" className="text-decoration-none" target="_blank">
                     Youtube
-                    <i class='bx bxl-youtube'></i>
+                    <i className='bx bxl-youtube'></i>
                   </Link>
                 </li>
                 <li>
                   <Link to="https://www.instagram.com/fatima027___/" className="text-decoration-none" target="_blank">
                     Instagram
-                    <i class='bx bxl-instagram' ></i>
+                    <i className='bx bxl-instagram' ></i>
                   </Link>
                 </li>
                 <li>
                   <Link to="/" className="text-decoration-none">
                     Facebook
-                    <i class='bx bxl-facebook-circle'></i>
+                    <i className='bx bxl-facebook-circle'></i>
                   </Link>
                 </li>
                 <li>
                   <Link to="https://www.linkedin.com/in/fatima-hailou-985779277/" className="text-decoration-none" target="_blank">
                     Linkedin
-                    <i class='bx bxl-linkedin-square'></i>
+                    <i className='bx bxl-linkedin-square'></i>
                   </Link>
                 </li>
                 
