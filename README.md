@@ -37,16 +37,16 @@ The project is built with a component-based architecture for modularity and reus
 
 ### Technologies Used
 
-- **React**:
+- **React** ⚛️
   
 
-- **Bootstrap**:
+- **Bootstrap** ✏️
 
 
-- **CSS**:
+- **CSS** 🎨
 
 
-- **Vercel**:
+- **Vercel** 🌟
   
 ---
 
