@@ -102,6 +102,11 @@
     width: 100%;
   }
 
+  .parallax{
+    height: 80% !important;
+    
+  }
+
   
 }
 
@@ -115,4 +120,6 @@
     grid-template-columns: repeat(2, 1fr);
     gap: 15px;
   }
+
+  
 }

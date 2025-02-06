@@ -46,9 +46,12 @@
 
 @media (max-width: 768px) { /* Small screens (phones) */
   .offcanvas {
-    width: 100vw;
+    width: 200% !important;
     height: 100vh;
     position: fixed;
+    font-size: 30px;
+    
+    
   }
 
   .navbar-brand{
@@ -62,10 +65,17 @@
   }
 
   .icon-brand-nav{
-    width: 90px;
-  height: 90px;
+    width: 150px;
+  height: 150px;
   margin-bottom: 5%;
+  
   }
+
+  .navbar-toggler-icon{
+    font-size: 30px;
+  }
+
+  
 }
 
 

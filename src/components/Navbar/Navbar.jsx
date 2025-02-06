@@ -31,7 +31,7 @@ function Navbar() {
           <div className="offcanvas-header justify-content-end">
             <button
               type="button"
-              className="btn-close shadow-none mt-4 fs-5"
+              className="btn-close shadow-none mt-4 fs-2"
               data-bs-dismiss="offcanvas"
               aria-label="Close"
             ></button>
