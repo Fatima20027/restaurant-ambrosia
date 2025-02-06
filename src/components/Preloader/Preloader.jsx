@@ -5,7 +5,8 @@ const Preloader = () => {
   return (
     <div className='preloader'>
       
-      
+      <h1>AMPROSIA</h1>
+      <p>BRASSERIE & BAR</p>
       <img src={animation} alt="animation-gif" />
       
       
