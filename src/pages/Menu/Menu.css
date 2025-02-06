@@ -1,20 +1,11 @@
 .container{
-  
   color: black;
- 
-  
-  
-
 }
 
 .menu-item{
   border-top: 1px solid gray;
   font-size: 18px;
   padding-top: 13px;
-  
-  
-  
-  
 }
 
 .menu-title{
@@ -40,9 +31,9 @@
 }
 
 .menu-wrapper {
-  max-width: 100%; /* Full-width layout */
-  margin: 0 auto; /* Center the content */
-  padding-right: 15px; /* Add some padding for spacing */
+  max-width: 100%; 
+  margin: 0 auto; 
+  padding-right: 15px;
 }
 
 .menu-img {

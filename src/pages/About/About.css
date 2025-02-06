@@ -41,7 +41,7 @@
 .error-text {
   color: red;
   font-size: 0.875rem;
-  display: none; /* Show conditionally based on validation */
+  display: none;
 }
 
 .catering{
